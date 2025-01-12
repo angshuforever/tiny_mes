@@ -1,0 +1,12 @@
+# Please use python@3.12
+# You need to install Rust in machine. Please see offcial documentation
+# Also, please install PostgreSQL and keep the bin location in $PATH
+# Run: pip install --upgrade pip
+# Run: pip install -r requirements.txt
+
+fastapi==0.109.1
+uvicorn==0.24.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+pydantic==2.5.2
+python-dotenv==1.0.0
